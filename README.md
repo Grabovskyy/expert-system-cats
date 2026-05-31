@@ -32,5 +32,4 @@ Aby uruchomić aplikację lokalnie, musisz mieć zainstalowanego Pythona (zaleca
 🚀 Uruchomienie aplikacji
 Aby włączyć interfejs graficzny, upewnij się, że znajdujesz się w katalogu z plikami projektu i wpisz w terminalu następującą komendę:
 
-Bash
 streamlit run GUI.py
