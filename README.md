@@ -1,6 +1,8 @@
 # expert-system-cats
 application for a pass in expert systems at university
 <img width="1909" height="910" alt="image" src="https://github.com/user-attachments/assets/a1fe263f-6d0f-47ba-b4f5-ba27049d2485" />
+<img width="756" height="728" alt="image" src="https://github.com/user-attachments/assets/1078487a-36d6-4f66-a1b4-e867dd73238d" />
+
 # 🐱 System Ekspertowy: Dobór Idealnego Kota
 
 Interaktywna aplikacja webowa napisana w języku Python, wykorzystująca framework **Streamlit** oraz bibliotekę **rule-engine** do stworzenia systemu ekspertowego. Program pomaga przyszłym właścicielom w wyborze idealnej rasy kota na podstawie wprowadzonych danych fizycznych oraz osobistych preferencji.
