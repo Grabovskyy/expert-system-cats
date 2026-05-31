@@ -1,0 +1,702 @@
+[
+  {
+    "name": "Maine Coon",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Duży'",
+        "pts": 25,
+        "explanation": "Imponująco masywna sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Długa'",
+        "pts": 25,
+        "explanation": "Gęsta, długa sierść jak futro niedźwiedzia"
+      },
+      {
+        "expr": "aktywnosc == 'Umiarkowana'",
+        "pts": 15,
+        "explanation": "Lubi zabawy, ale ceni też drzemki"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 20,
+        "explanation": "Przyjazny kompan dla całej rodziny"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 10,
+        "explanation": "Nie jest rasą hipoalergiczną"
+      },
+      {
+        "expr": "charakter == 'Spokojny'",
+        "pts": 5,
+        "explanation": "Łagodny olbrzym"
+      }
+    ]
+  },
+  {
+    "name": "Syjamski",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Smukła, elegancka sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 20,
+        "explanation": "Gładka, krótkowłosa sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Wysoka'",
+        "pts": 25,
+        "explanation": "Żywy i energiczny towarzysz"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 20,
+        "explanation": "Bardzo kontaktowy i gadatliwy"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie polecany dla alergików"
+      },
+      {
+        "expr": "charakter == 'Zabawowy'",
+        "pts": 10,
+        "explanation": "Figlarny i ciekawski"
+      }
+    ]
+  },
+  {
+    "name": "Bengalski",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Atletyczna, muskularna budowa"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 15,
+        "explanation": "Krótka sierść z dzikim rysunkiem"
+      },
+      {
+        "expr": "aktywnosc == 'Wysoka'",
+        "pts": 30,
+        "explanation": "Ekstremalnie aktywny i ciekawy świata"
+      },
+      {
+        "expr": "towarzyskosc == 'Umiarkowana'",
+        "pts": 15,
+        "explanation": "Lubi towarzystwo, ale bywa samodzielny"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 10,
+        "explanation": "Nie hipoalergiczny"
+      },
+      {
+        "expr": "charakter == 'Niezależny'",
+        "pts": 10,
+        "explanation": "Silna, niezależna osobowość"
+      }
+    ]
+  },
+  {
+    "name": "Sfinks",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 15,
+        "explanation": "Kompaktowa, muskularna sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 20,
+        "explanation": "Praktycznie bez sierści — unikat"
+      },
+      {
+        "expr": "aktywnosc == 'Umiarkowana'",
+        "pts": 15,
+        "explanation": "Lubi zabawy i pieszczoty"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 25,
+        "explanation": "Bardzo ceni bliskość z ludźmi"
+      },
+      {
+        "expr": "hipoalergiczny == 'Tak'",
+        "pts": 20,
+        "explanation": "Często lepszy wybór dla alergików"
+      },
+      {
+        "expr": "charakter == 'Zabawowy'",
+        "pts": 5,
+        "explanation": "Figlarny towarzysz domowy"
+      }
+    ]
+  },
+  {
+    "name": "Ragdoll",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Duży'",
+        "pts": 25,
+        "explanation": "Duży, delikatnie zbudowany kot"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Długa'",
+        "pts": 25,
+        "explanation": "Jedwabista, długa sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Niska'",
+        "pts": 20,
+        "explanation": "Spokojny, mało wymagający ruchowo"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 20,
+        "explanation": "Przywiązuje się mocno do opiekuna"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie uważany za hipoalergicznego"
+      },
+      {
+        "expr": "charakter == 'Spokojny'",
+        "pts": 5,
+        "explanation": "Rozluźniony i zrelaksowany temperament"
+      }
+    ]
+  },
+  {
+    "name": "Brytyjski Krótkowłosy",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Kompaktowa, okrągła sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 25,
+        "explanation": "Pluszowa, krótka sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Niska'",
+        "pts": 20,
+        "explanation": "Woli spokojne tempo życia"
+      },
+      {
+        "expr": "towarzyskosc == 'Umiarkowana'",
+        "pts": 20,
+        "explanation": "Lubi bliskość, ale zachowuje dystans"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie jest hipoalergiczny"
+      },
+      {
+        "expr": "charakter == 'Spokojny'",
+        "pts": 10,
+        "explanation": "Stateczny i opanowany"
+      }
+    ]
+  },
+  {
+    "name": "Norweski Leśny",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Duży'",
+        "pts": 25,
+        "explanation": "Silna, przystosowana do warunków zewnętrznych budowa"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Długa'",
+        "pts": 25,
+        "explanation": "Gęsta, wodoodporna sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Wysoka'",
+        "pts": 20,
+        "explanation": "Bardzo ruchliwy, lubi wspinaczki"
+      },
+      {
+        "expr": "towarzyskosc == 'Umiarkowana'",
+        "pts": 15,
+        "explanation": "Przyjazny, ale zachowawczy"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie hipoalergiczny"
+      },
+      {
+        "expr": "charakter == 'Niezależny'",
+        "pts": 10,
+        "explanation": "Samodzielny łowca"
+      }
+    ]
+  },
+  {
+    "name": "Rosyjski Niebieski",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Szczupła, elegancka sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 20,
+        "explanation": "Krótka, gęsta sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Umiarkowana'",
+        "pts": 20,
+        "explanation": "Umiarkowanie energiczny"
+      },
+      {
+        "expr": "towarzyskosc == 'Niska'",
+        "pts": 15,
+        "explanation": "Nie jest nachalnie towarzyski"
+      },
+      {
+        "expr": "hipoalergiczny == 'Tak'",
+        "pts": 15,
+        "explanation": "Często lepszy wybór przy alergii"
+      },
+      {
+        "expr": "charakter == 'Spokojny'",
+        "pts": 10,
+        "explanation": "Cichy i wyważony temperament"
+      }
+    ]
+  },
+  {
+    "name": "Pers",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Masywna, krępa sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Długa'",
+        "pts": 30,
+        "explanation": "Obfita, długa sierść wymagająca pielęgnacji"
+      },
+      {
+        "expr": "aktywnosc == 'Niska'",
+        "pts": 15,
+        "explanation": "Bardzo spokojny i powolny"
+      },
+      {
+        "expr": "towarzyskosc == 'Umiarkowana'",
+        "pts": 20,
+        "explanation": "Lubi towarzystwo, ale nie narzuca się"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie jest hipoalergiczny"
+      },
+      {
+        "expr": "charakter == 'Spokojny'",
+        "pts": 10,
+        "explanation": "Dostojny, łagodny temperament"
+      }
+    ]
+  },
+  {
+    "name": "Devon Rex",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Mały'",
+        "pts": 20,
+        "explanation": "Zwinny i niewielki rozmiar"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 25,
+        "explanation": "Kręcone, krótkie futerko"
+      },
+      {
+        "expr": "aktywnosc == 'Wysoka'",
+        "pts": 20,
+        "explanation": "Bardzo ruchliwy i figlarny"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 20,
+        "explanation": "Bardzo towarzyski i przywiązany"
+      },
+      {
+        "expr": "hipoalergiczny == 'Tak'",
+        "pts": 10,
+        "explanation": "Często polecany alergikom"
+      },
+      {
+        "expr": "charakter == 'Zabawowy'",
+        "pts": 5,
+        "explanation": "Niezwykle figlarny"
+      }
+    ]
+  },
+  {
+    "name": "Cornish Rex",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Mały'",
+        "pts": 20,
+        "explanation": "Smukły, delikatny rozmiar"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 25,
+        "explanation": "Kręcone, krótkie włoski"
+      },
+      {
+        "expr": "aktywnosc == 'Wysoka'",
+        "pts": 25,
+        "explanation": "Energia i ciekawość w nadmiarze"
+      },
+      {
+        "expr": "towarzyskosc == 'Umiarkowana'",
+        "pts": 15,
+        "explanation": "Lubi ludzi, ale ma własny rytm"
+      },
+      {
+        "expr": "hipoalergiczny == 'Tak'",
+        "pts": 10,
+        "explanation": "Przyjazny alergikom"
+      },
+      {
+        "expr": "charakter == 'Zabawowy'",
+        "pts": 5,
+        "explanation": "Skory do figli"
+      }
+    ]
+  },
+  {
+    "name": "Scottish Fold",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Zaokrąglona, solidna budowa"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Średnia'",
+        "pts": 25,
+        "explanation": "Miękka, średniej długości sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Niska'",
+        "pts": 20,
+        "explanation": "Spokojny, domowy charakter"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 20,
+        "explanation": "Ceni bliskość i pieszczoty"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie zalecany przy silnej alergii"
+      },
+      {
+        "expr": "charakter == 'Spokojny'",
+        "pts": 10,
+        "explanation": "Łagodny i czuły"
+      }
+    ]
+  },
+  {
+    "name": "Abisyński",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Smukły, atletyczny kształt"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 20,
+        "explanation": "Krótka, połyskująca sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Wysoka'",
+        "pts": 30,
+        "explanation": "Bardzo aktywny i ciekawski"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 15,
+        "explanation": "Lubi towarzystwo i interakcję"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie hipoalergiczny"
+      },
+      {
+        "expr": "charakter == 'Niezależny'",
+        "pts": 10,
+        "explanation": "Dumny i samodzielny"
+      }
+    ]
+  },
+  {
+    "name": "Somalijski",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Wydłużona, smukła sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Długa'",
+        "pts": 25,
+        "explanation": "Puszysta, długa sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Wysoka'",
+        "pts": 25,
+        "explanation": "Żwawy i pełen energii"
+      },
+      {
+        "expr": "towarzyskosc == 'Umiarkowana'",
+        "pts": 15,
+        "explanation": "Lubi kontakt, ale nie przytłacza"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie jest hipoalergiczny"
+      },
+      {
+        "expr": "charakter == 'Zabawowy'",
+        "pts": 10,
+        "explanation": "Figlarny i ruchliwy"
+      }
+    ]
+  },
+  {
+    "name": "Orientalny Krótkowłosy",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Smukła, elegancka sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 20,
+        "explanation": "Krótka i łatwa w pielęgnacji sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Umiarkowana'",
+        "pts": 20,
+        "explanation": "Żywy, lecz zrównoważony"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 25,
+        "explanation": "Bardzo towarzyski i rozmowny"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie hipoalergiczny"
+      },
+      {
+        "expr": "charakter == 'Zabawowy'",
+        "pts": 10,
+        "explanation": "Żywiołowy i ciekawski"
+      }
+    ]
+  },
+  {
+    "name": "Birman",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Solidna, umiarkowana sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Długa'",
+        "pts": 25,
+        "explanation": "Jedwabista, długa sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Niska'",
+        "pts": 15,
+        "explanation": "Spokojny preferujący relaks"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 25,
+        "explanation": "Bardzo przywiązany do opiekuna"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 5,
+        "explanation": "Nie zalecany dla alergików"
+      },
+      {
+        "expr": "charakter == 'Spokojny'",
+        "pts": 10,
+        "explanation": "Czuły i łagodny"
+      }
+    ]
+  },
+  {
+    "name": "Balinese",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Smukła, wyrafinowana sylwetka"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Średnia'",
+        "pts": 25,
+        "explanation": "Półdługa, jedwabista sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Umiarkowana'",
+        "pts": 20,
+        "explanation": "Aktywny, ale zrównoważony"
+      },
+      {
+        "expr": "towarzyskosc == 'Wysoka'",
+        "pts": 25,
+        "explanation": "Bardzo kontaktowy, lubi rozmowy"
+      },
+      {
+        "expr": "hipoalergiczny == 'Tak'",
+        "pts": 5,
+        "explanation": "Czasami lepszy przy alergii"
+      },
+      {
+        "expr": "charakter == 'Zabawowy'",
+        "pts": 5,
+        "explanation": "Figlarny towarzysz"
+      }
+    ]
+  },
+  {
+    "name": "LaPerm",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Mały'",
+        "pts": 20,
+        "explanation": "Niewielki i zwinny rozmiar"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Średnia'",
+        "pts": 25,
+        "explanation": "Kręcone, średniej długości futro"
+      },
+      {
+        "expr": "aktywnosc == 'Umiarkowana'",
+        "pts": 20,
+        "explanation": "Średnio aktywny, przyjazny"
+      },
+      {
+        "expr": "towarzyskosc == 'Umiarkowana'",
+        "pts": 20,
+        "explanation": "Lubi ludzi, ale nie jest nachalny"
+      },
+      {
+        "expr": "hipoalergiczny == 'Tak'",
+        "pts": 10,
+        "explanation": "Często przyjazny alergikom"
+      },
+      {
+        "expr": "charakter == 'Spokojny'",
+        "pts": 5,
+        "explanation": "Łagodny i zrównoważony"
+      }
+    ]
+  },
+  {
+    "name": "Chartreux",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Solidna, muskularna budowa"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Krótka'",
+        "pts": 25,
+        "explanation": "Gęsta, krótka sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Niska'",
+        "pts": 20,
+        "explanation": "Spokojny i opanowany"
+      },
+      {
+        "expr": "towarzyskosc == 'Niska'",
+        "pts": 15,
+        "explanation": "Raczej niezależny i powściągliwy"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 10,
+        "explanation": "Nie hipoalergiczny"
+      },
+      {
+        "expr": "charakter == 'Niezależny'",
+        "pts": 10,
+        "explanation": "Samodzielny i stoicki"
+      }
+    ]
+  },
+  {
+    "name": "Manx",
+    "rules": [
+      {
+        "expr": "rozmiar == 'Średni'",
+        "pts": 20,
+        "explanation": "Brak ogona często idzie z mocną sylwetką"
+      },
+      {
+        "expr": "dlugosc_siersci == 'Średnia'",
+        "pts": 20,
+        "explanation": "Średniej długości sierść"
+      },
+      {
+        "expr": "aktywnosc == 'Umiarkowana'",
+        "pts": 20,
+        "explanation": "Aktywny, lubi polowanie i zabawę"
+      },
+      {
+        "expr": "towarzyskosc == 'Umiarkowana'",
+        "pts": 20,
+        "explanation": "Przyjazny, ale nie przytłaczający"
+      },
+      {
+        "expr": "hipoalergiczny == 'Nie'",
+        "pts": 10,
+        "explanation": "Nie uważany za hipoalergicznego"
+      },
+      {
+        "expr": "charakter == 'Niezależny'",
+        "pts": 10,
+        "explanation": "Samodzielny i odważny"
+      }
+    ]
+  }
+]
