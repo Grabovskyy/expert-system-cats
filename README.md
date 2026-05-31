@@ -1,4 +1,5 @@
 # expert-system-cats
+
 <img width="1909" height="910" alt="image" src="https://github.com/user-attachments/assets/a1fe263f-6d0f-47ba-b4f5-ba27049d2485" />
 # 🐱 System Ekspertowy: Dobór Idealnego Kota
 
